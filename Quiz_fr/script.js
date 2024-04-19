@@ -202,7 +202,7 @@ fetch('questions.json')
     function endQuiz() {
       document.getElementById('quiz-container').style.display = 'none';
       document.getElementById('score_text').style.display = 'block';
-      document.getElementById('total_points').innerHTML = `${score}`;
+      document.getElementById('total_points').innerHTML = `${score} / 5`;
       document.getElementById('total_points').style.display = 'block';
       document.getElementById('b_main').style.display = 'block';
       document.getElementById('question_bg').style.left = '0%';
