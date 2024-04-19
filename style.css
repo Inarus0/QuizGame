@@ -1,0 +1,103 @@
+body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    user-select: none; /* Empêche la sélection de texte */
+}
+
+
+#question_bg {
+    /* Text style */
+    font-size: 43px;
+    font-weight: bold;
+    color: white;
+    z-index: -99999;
+
+    /* Form and color style */
+    width: 32%;
+    height: 120%; /* Initial height */
+    background-color: #6ABF4B;
+    border-radius: 40px 40px 0 0; /* top left, top right, bottom right, bottom left */
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    left: -61%; /* Adjust as needed */
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 45px;
+    transition: height 0.5s ease; /* Smooth transition for height changes */
+}
+
+#question_bg.animate {
+    height: 85%; /* New height with animation */
+    top: 20%;
+}
+
+.option_container{
+    position: absolute;
+    width: 60%;
+    right: 1.5%;
+    top: 35%;
+    
+
+  }
+#quizb_ar, #quizb_fr{
+    position: relative;
+    left: 16%;
+    flex: 1 1 48%; /* Each button will take almost half of the container's width */
+    max-width: 70%; /* Optional: limits button width */
+    border-radius: 50px 50px 50px 50px;
+    background: linear-gradient(to right, #7ee05b, #6ABF4B);
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    border: none; /* Remove the border */
+    margin: 20px; /* Center the buttons within their grid cells */
+}
+#quizb_ar {
+    height: 12vh; /* Adjust height as needed */
+    width: 120%; /* Adjust width as needed */
+}
+
+#quizb_fr{ 
+    height: 12vh; /* Adjust height as needed */
+    width: 95%; /* Adjust width as needed */ 
+}
+
+ #img_4{
+    position:absolute;
+    top: 75%;
+    left: 7%;
+  }
+
+  #welcome{
+    /* Text style */
+
+   font-size: 30px;
+   font-weight: bold;
+   color: white;
+
+    /* Form and color style */
+    display: block;
+   width: 32%;
+   height: 85%;
+   border-radius: 40px 40px 0 0; /* top left, top right, bottom right, bottom left */
+   margin: auto;
+   position: absolute;
+   top: 15%;
+   left: -61%; /* Adjust as needed */
+   right: 0;
+   bottom: 0;
+   text-align: center;
+   padding-left: 2%;
+   padding-right: 45px;
+ } 
+ #welcome.animate {
+    display: none;
+}

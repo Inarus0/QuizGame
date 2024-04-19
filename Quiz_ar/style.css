@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    user-select: none; /* Empêche la sélection de texte */
+  }
+  
+ /* #quiz-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    top: 25%;
+    
+  }
+  .option_container{
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    top: 25%;
+    z-index: 5;
+  }*/
+
+  #img_4{
+    position:absolute;
+    top: 75%;
+    left: 7%;
+  }
+  
+  #question{
+     /* Text style */
+
+    font-size: 43px;
+    font-weight: bold;
+    color: white;
+
+     /* Form and color style */
+    width: 32%;
+    height: 85%;
+    
+    border-radius: 40px 40px 0 0; /* top left, top right, bottom right, bottom left */
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: -61%; /* Adjust as needed */
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: first baseline;
+    
+    padding-left: 3%;
+    padding-right: 45px;
+    display: block;/*-----------------------------------*/
+  } 
+
+  #score_text{
+    display: none;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    width: 32%;
+    height: 85%;
+    text-align: center;
+    border-radius: 40px 40px 0 0; /* top left, top right, bottom right, bottom left */
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 0%; /* Adjust as needed */
+    right: 0;
+    bottom: 0;
+    justify-content: first baseline; 
+    padding-left: 3%;
+    padding-right: 45px;
+  }
+
+  #total_points{
+    display: none; /* Hidden initially */
+    font-size: 140px;
+    font-weight: bold;
+    color: white;
+    width: 32%;
+    height: 85%;
+    text-align: center;
+    border-radius: 40px 40px 0 0; /* top left, top right, bottom right, bottom left */
+    margin: auto;
+    position: absolute;
+    top: 80%;
+    left: 0%; /* Adjust as needed */
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center; 
+    padding-left: 3%;
+    padding-right: 45px;
+  }
+  
+  #b_main{
+    display: none; /* Hidden initially */
+    position: absolute;
+    border-radius:40px 40px 40px 40px  ;
+    background: linear-gradient(to right, #e6ffdc, #e3f0de);
+    
+ 
+    color: rgb(106, 201, 83);
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    bottom: 5%;
+    right: 5%;
+    height: 8vh; /* Adjust height as needed */
+    width: 20vw; /* Adjust width as needed */
+    border: none; /* Remove the border */
+    
+  }
+  
+  
+
+
+ #question_bg{
+  /* Text style */
+
+ font-size: 43px;
+ font-weight: bold;
+ color: white;
+ z-index: -99999;
+
+  /* Form and color style */
+ 
+ height: 85%;
+ background-color: #6ABF4B;
+ border-radius: 40px 40px 0 0; /* top left, top right, bottom right, bottom left */
+ margin: auto;
+ position: absolute;
+ top: 20%;
+ width: 32%;
+ left: -61%; /* Adjust as needed */
+ right: 0;
+ bottom: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding-left: 3%;
+ padding-right: 45px;
+} 
+
+/*#question_bg.animate{
+  
+  width: 90%;
+  left: 0%; 
+} */
+  .option_container{
+    position: absolute;
+    width: 60%;
+    right: 1.5%;
+    top: 35%;
+
+  }
+
+  @media (max-width: 600px) {
+    #options button {
+      flex: 1 1 100%; /* Each button takes the full width on smaller screens */
+      margin: 2px;
+    }
+  }
+  
+  #options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Centers items on the line with space around them */
+  }
+  
+  #options button {
+    
+    flex: 1 1 48%; /* Each button will take almost half of the container's width */
+    margin: 5px; /* Adds some space around each button */
+    max-width: 50%; /* Optional: limits button width */
+    border-radius: 50px 40px 40px 50px;
+    background: linear-gradient(to right, #00B0F0, #c8ff00);
+    height: 10vh; /* Adjust height as needed */
+    width: 95%; /* Adjust width as needed */
+    display: flex; /* Using flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none; /* Remove the border */
+    margin: 5px; /* Center the buttons within their grid cells */
+    
+  }
+  
+  /*
+  .pc {
+    display: grid;
+    grid-template-columns: repeat(2, 260%); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-column-gap:55%;
+    grid-row-gap: 5.2%;
+    color: #6ABF4B;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 45px;
+    font-weight: bold;
+    left: 38.8%;
+    top: 35.65%;
+    position:absolute;
+    
+  }
+  
+  .c1,.c2,.c3,.c4{
+    background-color: white;
+    height: 9.55vh; 
+    width: 9.5vh; 
+    border-radius: 60px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: #6ABF4B solid 2px; 
+  
+  
+  
+  .c1 {
+    grid-area: 1 / 1 / 2 / 2; 
+  
+  .c2 {
+    grid-area: 1 / 2 / 2 / 3; 
+  }
+  
+  .c3 {
+    grid-area: 2 / 1 / 3 / 2; 
+  }
+  
+  .c4 {
+    grid-area: 2 / 2 / 3 / 3; 
+  }
+  */
+
+
+
+
+  
+  #next-btn {
+    display: block; /* Hidden initially */
+    position: absolute;
+    border-radius:40px 40px 40px 40px  ;
+    background: linear-gradient(to right, #7ee05b, #6ABF4B);
+    display: flex; /* Using flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    bottom: 5%;
+    right: 1.5%;
+    height: 8vh; /* Adjust height as needed */
+    width: 20vw; /* Adjust width as needed */
+    border: none; /* Remove the border */
+    
+  }
+  
+
+  .selected {
+    background-color: lightblue; /* Change this color to match your selected option color */
+  }
+
+  .correct {
+    background-color: green;
+ } 
+
+ .incorrect {
+    background-color: red;
+ }

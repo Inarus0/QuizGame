@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>لعبة الاختبار</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="rang.css">
+</head>
+<body>
+  <div id="img_4"><img src="..\Media\win.png" alt=""></div>
+  <div id="question_bg"></div>
+    <div id="quiz-container">
+        <div id="question"></div>
+        <div id="rectangle"></div>
+        <div id="inst_0">
+          <b>t&nbsp&nbsp&nbsp : طن </b> <br>
+          <b>kt&nbsp : ألف طن </b> <br>
+          <b>Mt : مليون طن </b> <br>
+          <b>Gt : مليار طن </b> <br>
+          <b>Tt&nbsp : تريليون طن </b>
+        </div>
+        <div id="inst_1">
+          <b>اسحب شريط تمرير النطاق لاختيار القيمة المطلوبة.</b>
+        </div>
+        
+        <div class="option_container"0 id="options-grid">
+          <div id="options"></div>
+          
+        </div>
+
+        <div class="wrapper">
+          <span id="rangeValue">0</span>
+          <span id="unit_text">0</span>
+          <Input class="range" type="range" name "" value="0" min="0" max="1000" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+          <!--<button id="add">+</button>
+          <button id="subtract">-</button>-->
+        </div>
+
+        
+        
+
+        <div class="header">
+            
+          <div class="img1"><img src="..\Media\timer_1.png" alt=""></div>
+          <div class="timer">
+            <div class="timer_t"><span id="timer_t"> </span></div>
+          </div>
+          <div class="img2"><img src="..\Media\Score.png" alt=""></div>
+          <div class="score">
+            <div class="score_t"><span id="score_t"</span></div> 
+            <div class="unit">النقط</div>
+          </div>
+          <div id="question_index"></div>
+        </div>
+        <button id="next-btn" onclick="confirmAnswer()">التالي</button>
+      </div>
+      <diV id="score_final">
+        <h2 id="score_text"> شكرا على مشاركتكم, مجموع نقاطكم هو </h2>
+        <p id="total_points"></p>
+        <button id="b_main">الرجوع</button>
+      </div>
+
+
+     
+      
+<script src="script.js"></script>
+</body>
+</html>

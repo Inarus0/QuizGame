@@ -1,0 +1,181 @@
+{
+    "questions": [
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans 15 heures de visioconférence ? ",
+        "options": [
+          "50",
+          "100",
+          "150",
+          "200"
+        ],
+        "answer": "100",
+        "unit": "g CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans 1 kg de produit laitier Danone en moyenne ? ",
+        "options": [
+          "2300",
+          "2350",
+          "2400",
+          "2450"
+        ],
+        "answer": "2400",
+        "unit": "g CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans 1 repas avec du bœuf ? ",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
+        "answer": "7",
+        "unit": "kg CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans un trajet de 500 km en voiture à essence ?",
+        "options": [
+          "90",
+          "100",
+          "110",
+          "120"
+        ],
+        "answer": "110",
+        "unit": "kg CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans le chauffage annuel d'une pièce ou d'un appartement de 25 mètres carrés au gaz (climat européen) ? ",
+        "options": [
+          "950",
+          "1000",
+          "1050",
+          "1100"
+        ],
+        "answer": "1000",
+        "unit": "kg CO2e"
+      },
+      {
+        "question": "Quelle est la quantité maximale de CO2e que chaque être humain peut émettre par an pour limiter le réchauffement climatique à moins de 2°C ? ",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "unit": "t CO2e"
+      },
+      {
+        "question": "Quelles sont les émissions par habitant des pays développés ? ",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "answer": "12",
+        "unit": "t CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans les émissions de gaz à effet de serre de Danone en 2020 ?",
+        "options": [
+          "12",
+          "18",
+          "24",
+          "30"
+        ],
+        "answer": "24",
+        "unit": "Mt CO2e"
+      },
+      {
+        "question": "Quelles sont les émissions de CO2 annuelles globales ?",
+        "options": [
+          "40",
+          "50",
+          "60",
+          "70"
+        ],
+        "answer": "50",
+        "unit": "Tt CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans le visionnage intensif pendant 31 heures de votre série TV en streaming préférée ?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "unit": "kg CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans 14 repas végétariens ?",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "11"
+        ],
+        "answer": "7",
+        "unit": "kg CO2e"
+      },
+      {
+        "question": "Quelles sont les émissions annuelles par habitant d'un citoyen du Niger ?",
+        "options": [
+          "80",
+          "90",
+          "100",
+          "110"
+        ],
+        "answer": "100",
+        "unit": "kg CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans un aller-retour Paris - New York en avion ?",
+        "options": [
+          "0",
+          "2",
+          "4",
+          "6"
+        ],
+        "answer": "2",
+        "unit": "t CO2e"
+      },
+      {
+        "question": "Quelle quantité d'émissions de CO2e Danone doit-elle réduire entre 2020 et 2030 ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "unit": "MT CO2e"
+      },
+      {
+        "question": "Quel est le budget restant en CO2e pour l'humanité selon la science ?",
+        "options": [
+          "300",
+          "350",
+          "400",
+          "450"
+        ],
+        "answer": "400",
+        "unit": "Tt CO2e"
+      },
+      {
+        "question": "COMBIEN DE CARBONE Y A-T-IL dans un trajet de 46 000 km en train à grande vitesse ?",
+        "options": [
+          "100",
+          "110",
+          "120",
+          "130"
+        ],
+        "answer": "110",
+        "unit": "kg CO2e"
+      }
+    ]
+  }
+  
